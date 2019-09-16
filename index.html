@@ -16,7 +16,9 @@
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <div class="card card-signin my-5">
             <div class="card-body">
-              <h5 class="card-title text-center">Sign In</h5>
+              <div class="bg-primary">
+              <h5 class="card-title text-center text-uppercase">Sign In</h5>
+            </div>
               <form class="form-signi">
                 <div class="form-label-group">
                   <label for="inputEmail">Email address</label>
@@ -28,19 +30,29 @@
                   <input type="password" id="inputPassword" class="form-control" placeholder="Password"  required>
                </div>
                
-  
-                <div class="custom-control custom-checkbox mb-3">
+               <div class="form-row text-center">
+                <div class="custom-control custom-checkbox col-md-6 mb-3" >
                   <input type="checkbox" class="custom-control-input" id="customCheck1">
                   <label class="custom-control-label" for="customCheck1">Remember me</label>
-                  <label style="text-align: right"><a href="http://">Forget password</a></label>
                 </div>
-                <button class="btn btn-lg btn-primary btn-small text-uppercase" type="submit">Log in</button>
+                <div class="custom-control custom-checkbox col-md-6 mb-3" >
+                  <label style="text-align: right"><a href="http:/#/">Forget password</a></label>
+                </div>
+               </div>
+                <div class="text-center"><button class="btn btn-sm btn-primary text-uppercase" type="submit">Log in</button></div>
                 
-                <div class="custom-control custom-checkbox mb-3">
+  <br>
+                <div class="form-row text-center">
+                <div class="custom-control custom-checkbox col-md-6 mb-3" >
                   <input type="checkbox" class="custom-control-input" id="customCheck1">
                   <label class="">Don't have an account?</label>
-                  <label style="text-align: right"><a href="http://">Sign up here</a></label>
+                </div>       
+                  <div class="custom-control custom-checkbox col-md-6 mb-3" >
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label style="align-content: right"><a href="http:/#/">Sign up here</a></label>
                 </div>
+              </div>
+            
               </form>
             </div>
           </div>
